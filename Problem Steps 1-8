@@ -1,0 +1,31 @@
+# declare an empty dynamic array.
+arr = []
+# Create a for loop to input three values into the array
+for i in range(3): # change value 3 to increase or decrease no. of input
+    x = int(input('Enter value: '))
+    arr.append(x)   # add to array
+# display the aray values
+for i in range(3): # value 3 is the no. of input
+    print(arr[i],end=" ")
+
+
+# declare an empty dynamic array.
+arr = []
+# Create a for loop to input four values into the array
+for i in range(4): 
+    x = int(input('Enter value: '))
+    arr.append(x)   # add to array
+# display the aray values
+for i in range(4): 
+    print(arr[i],end=" ")
+
+
+# declare an empty dynamic array.
+arr = []
+# Create a for loop to input two values into the array
+for i in range(2): 
+    x = int(input('Enter value: '))
+    arr.append(x)   # add to array
+# display the aray values
+for i in range(2): 
+    print(arr[i],end=" ")
